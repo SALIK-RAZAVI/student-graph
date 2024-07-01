@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Scores Graph</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Student Scores Graph</h1>
+        <canvas id="studentChart"></canvas>
+        <div class="controls">
+            <label for="studentName">Student Name:</label>
+            <input type="text" id="studentName">
+            <label for="studentScore">Score:</label>
+            <input type="number" id="studentScore" min="0" max="100">
+            <button id="addData">Add Data</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
